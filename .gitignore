@@ -1,0 +1,6 @@
+.DS_Store
+*.swp
+.module-cache
+node_modules
+static/js/node_modules
+npm-debug.log
