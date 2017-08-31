@@ -1,8 +1,19 @@
-export const SET_DATA = 'SET_DATA';
+export const setStatus = () => {
+    return dispatch => {
+        dispatch({
+            type: 'SET_STATUS'
+        })
+    }
+}
 
-export const requestData = path => {
-    return {
-        type: SET_DATA,
-        path
+
+export const change = (name) => {
+    return dispatch => {
+        dispatch({
+            type: 'SET_NAME',
+            payload: {
+                name
+            }
+        })
     }
 }

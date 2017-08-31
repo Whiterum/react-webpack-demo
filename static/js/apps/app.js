@@ -7,7 +7,7 @@ import {Provider} from 'react-redux';
 // let store = {}
 
 store.subscribe(() => { //监听state变化
-    //console.log(store.getState())
+    // console.log(store.getState())
 });
 
 render(

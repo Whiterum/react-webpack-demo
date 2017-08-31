@@ -16,17 +16,6 @@ class Roots extends Component {
 const test = (location, callback) => {
     callback(null, require('../components/test').default)
 }
-// const test = (location, cb) => {
-//     require.ensure([], require => {
-//         cb(null, require('../components/test').default)
-//     },'test')
-// }
-//
-// const demo01 = (location, cb) => {
-//     require.ensure([], require => {
-//         cb(null, require('../components/demo/reactDemo').default)
-//     },'demo01')
-// }
 
 const demo01 = (location, callback) => {
     callback(null, require('../components/demo/reactDemo').default)
